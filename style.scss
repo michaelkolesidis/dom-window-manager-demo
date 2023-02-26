@@ -1,0 +1,62 @@
+/* colors */
+$white: #fff;
+$black: #0a0a0a;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $black;
+}
+
+html,
+body {
+  background-color: rgb(235, 160, 250);
+}
+
+.window {
+  position: absolute;
+  cursor: grab;
+  width: 25em;
+  height: 10em;
+  color: $black;
+  border: 3px solid $black;
+  border-top: 35px solid $black;
+  background-color: $white;
+  padding: 1em;
+
+  button {
+    position: absolute;
+    top: -35px;
+    right: -2px;
+    padding-top: -0.3rem;
+    border: 0;
+    background-color: $black;
+    color: $white;
+    cursor: pointer;
+    height: 30px;
+    width: 37px;
+    font-weight: 900;
+    font-size: 1.4rem;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+#one {
+  left: 2em;
+  top: 2em;
+}
+
+#two {
+  left: 12em;
+  top: 8em;
+}
+
+#three {
+  height: fit-content;
+  width: fit-content;
+  top: 14em;
+  left: 32em;
+}
